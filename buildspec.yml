@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - pip install
+      - pip install boto3
 artifacts: 
   files:
     - '**/*'
