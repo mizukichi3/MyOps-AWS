@@ -6,7 +6,4 @@ resources:
       name: HelloWorld
       alias: dev
       currentversion: "1"
-      targetversion: "1"
-hooks:
-  - BeforeAllowTraffic: "LambdaFunctionToValidateBeforeTrafficShift"
-  - AfterAllowTraffic: "LambdaFunctionToValidateAfterTrafficShift"
+      targetversion: "2"
