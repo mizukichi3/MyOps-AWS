@@ -1,10 +1,10 @@
 version: 0.0
 resources:
-  - name-of-function-to-deploy:
+  - HelloWorld:
     type: "AWS::Lambda::Function"
     properties:
       name: HelloWorld
-      alias: HelloWorld
+      alias: dev
       currentversion: "1"
       targetversion: "1"
 hooks:
