@@ -4,7 +4,7 @@ Resources:
     Type: "AWS::Lambda::Function"
     Properties:
       Name: "HelloWorld"
-      Alias: dev
+      Alias: "dev"
       CurrentVersion: "1"
       TargetVersion: "2"
 Hooks:
